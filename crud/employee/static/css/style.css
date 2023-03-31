@@ -1,0 +1,44 @@
+body {
+    background: #eee;
+    height: 100%;
+    margin: 25px 0;
+    padding-left: 300px;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(118, 200, 221);
+    font-family: letra;
+}
+
+tr:hover {
+    background-color: rgb(104, 212, 212);
+}
+
+th {
+    background-color: #b098e9;
+    color: white;
+}
+
+button {
+    border-radius: 12px;
+    color: aqua;
+    background-color: #b098e9;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: letra;
+    src: url(TT\ Autonomous\ Trial\ Light.ttf);
+}
+
+@font-face{
+    font-family: titulo;
+    src: url(DESIGNER.otf);
+}
+
+h1 {
+    
+  font-family: tirulo;  
+}
